@@ -7,7 +7,7 @@ const breedDetailsFromFile = function(breed, callback) {
     // CHANGE 1: Pass data back via callback instead of return.
     console.log('Callback: I have the data!');
     if (!error) {
-      callback(data)
+      callback(data);
     } else callback(undefined);
   });
 };
